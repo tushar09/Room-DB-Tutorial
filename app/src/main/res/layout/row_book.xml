@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <View
+            android:layout_marginRight="2dp"
+            android:background="@color/black"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tvId"
+            android:textColor="@color/black"
+            android:layout_weight="0.2"
+            android:text="Id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/black"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tvBookName"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/black"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tvAuthorName"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Author"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/black"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tvPublishDate"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Publish Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_marginLeft="2dp"
+            android:background="@color/black"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vLastDiv"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"/>
+
+</LinearLayout>
